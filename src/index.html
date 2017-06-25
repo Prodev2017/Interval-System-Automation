@@ -36,4 +36,29 @@
 <body>
   <app-root>Loading...</app-root>
 </body>
+<script type="text/javascript" src="/assets/js/global-vendors.js"></script>
+<!-- END GLOBAL AND THEME VENDORS -->
+
+<!-- BEGIN PLUGINS AREA -->
+<script type="text/javascript" src="/assets/js/bootstrap-switch.min.js"></script>
+<script type="text/javascript" src="/assets/js/switchery.min.js"></script>
+<!-- END PLUGINS AREA -->
+
+<!-- PLUGINS INITIALIZATION AND SETTINGS -->
+<script type="text/javascript" src="/assets/js/forms-switch.js"></script>
+<script type="text/javascript" src="/assets/js/forms-switchery.js"></script>
+<!-- END PLUGINS INITIALIZATION AND SETTINGS -->
+
+<!-- PLEASURE -->
+<script type="text/javascript" src="/assets/js/pleasure.js"></script>
+<!-- ADMIN 1 -->
+<script type="text/javascript" src="/assets/js/layout.js"></script>
+<script type="text/javascript"> 	
+	$(document).ready(function () {
+		Pleasure.init();
+		Layout.init();
+		FormsSwitch.init();
+		FormsSwitchery.init();
+	});
+</script>
 </html>
